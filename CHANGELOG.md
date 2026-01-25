@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-12)
+## Unreleased (2026-01-25)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`1c9a785`](https://github.com/stdlib-js/stdlib/commit/1c9a785ad53c5dac99aa5e019402cd4d8e7bccaa) - **bench:** add missing benchmarks _(by Athan Reines)_
 -   [`18f7a74`](https://github.com/stdlib-js/stdlib/commit/18f7a74934a8c1d64798818b20e03c353f4db981) - **test:** fix supplied arguments in fifth argument tests _(by Philipp Burckhardt)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`8eafaaa`](https://github.com/stdlib-js/stdlib/commit/8eafaaa6903a36942148972269b561071ff99eed) - **chore:** fix C lint errors [(#8237)](https://github.com/stdlib-js/stdlib/pull/8237) _(by Geo Daoyu)_
