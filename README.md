@@ -50,6 +50,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import snanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskmin@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-snanmskmin/tags). For example,
+
+```javascript
 import snanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskmin@v0.1.1-esm/index.mjs';
 ```
 
@@ -169,7 +174,7 @@ var v = snanmskmin.ndarray( 4, x, 2, 1, mask, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import snanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskmin@v0.1.1-esm/index.mjs';
+import snanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskmin@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
